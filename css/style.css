@@ -1,0 +1,228 @@
+/* 
+
+Theme color::
+    primary color : #ECDDD9
+    Black: #020100
+    White: #FEFFFE
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+a i{
+    color: #ECDDD9;
+    font-size: 18px !important; 
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.btn{
+    border-radius: 0% !important;
+    box-shadow: none !important;
+}
+
+/****************************
+            Button
+****************************/
+.btn-secondary{
+    background-color:#020100;
+    border-color:#020100;
+}
+.btn-secondary:hover{
+    background-color: transparent !important;
+    color: #020100 !important;
+}
+
+.btn-outline-secondary{
+    color: #FEFFFE !important;
+    border-color: #FEFFFE !important;
+}
+
+.btn-outline-secondary:hover{
+    color: #020100 !important;
+    background-color: #FEFFFE !important;
+}
+
+
+/****************************
+            Heading
+****************************/
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading::first-letter{
+    color: #ECDDD9;
+}
+
+/****************************
+            Navbar
+****************************/
+
+.navbar{
+    opacity: 1;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-link, .navbar-brand{
+    color: #020100 !important;
+}
+
+.nav-link:hover{
+    color: #777 !important;
+}
+
+.navbar .btn-secondary{
+    color: #FEFFFE !important;
+}
+
+.navbar .btn-secondary:hover{
+    color: #020100 !important;
+    background-color: transparent !important;
+}
+/****************************
+            Home
+****************************/
+.home{
+    min-height: 660px;
+    overflow: hidden;
+    background-image: url('../img/main-5.webp');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.card{
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+/****************************
+        Call To Action
+****************************/
+.call-to-action{
+    background-color: #020100;
+    color: #FEFFFE;
+}
+
+/****************************
+        Gallery
+****************************/
+.price-tag{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #020100;
+    padding: 20px;
+    color: #ECDDD9;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.dollar{
+    font-size: 1.4rem;
+}
+
+.gallery{
+    column-count: 3;
+    column-width: 33%;
+}
+
+.gallery .pics{
+    position: relative;
+    overflow: hidden !important;
+}
+
+.gallery .pics img:hover{
+    transform: scale(1.3);
+}
+
+.gallery .pics .img10{
+    height: 392px;
+}
+
+.gallery .pics .img15{
+    height: 580px;
+}
+/****************************
+        Testimonial
+****************************/
+.testimonial-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial{
+    background-color: #020100;
+    color: #FEFFFE;
+}
+
+/****************************
+            Contact 
+****************************/
+input,
+textarea,
+select{
+    border-radius: 0 !important;
+    padding: 20px 10px !important;
+    border: none;
+    border-bottom: 1px solid #020100 !important;
+    color: #020100 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    border-color: #020100 !important;
+    box-shadow: 0 1px 1px rgba(2, 1, 0, 0.075) inset, 0 0 4px #020100 !important;
+    outline: none !important;
+}
+
+/****************************
+            Footer 
+****************************/
+.footer{
+    background-color: #020100 !important;
+    color: #FEFFFE !important;
+}
+
+.footer a{
+    color: #FEFFFE !important;
+}
+
+.footer .navbar-brand{
+    color: #FEFFFE !important;
+}
+
+.footer h4{
+    margin-top: 10px;
+}
